@@ -1,0 +1,237 @@
+.top_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.top_left {
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+}
+
+.website_name {
+	font-size: large;
+	font-weight: bold;
+	color: white;
+}
+
+.cloud_nine_logo {
+	max-width: 80px;
+	height: auto;
+	margin-right: 10px;
+	margin-left: 15px;
+}
+
+.top_right {
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+}
+
+.about,
+.monsoon {
+	font-size: 17px;
+	border: none;
+	padding: 5px;
+	border-radius: 15px;
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.about,
+.monsoon {
+  text-decoration: none !important;
+}
+
+body {
+	background-color: black;
+}
+
+.container {
+	background-color: gray;
+	color: white;
+	padding: 1cm;
+	width: 30%;
+	margin: 4rem auto;
+	border-radius: 15px;
+}
+
+.weather_header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+input {
+	border: none;
+	outline: none;
+	padding: 0.5rem 2.5rem;
+	border-radius: 5px;
+	color: black;
+}
+
+input::placeholder {
+	margin-bottom: 10px;
+	position:absolute;
+	top: 10px;
+}
+
+
+.weather_search {
+	position: relative;
+}
+
+.weather_search i {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	font-size: 15px;
+	color: black;
+}
+
+.weather_units {
+	font-size: 1.5rem;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.weather_unit_celcius {
+	margin-right: 20px;
+}
+
+.weather_body {
+	text-align: center;
+	margin-top: 3rem;
+}
+
+.weather_date_time {
+	margin-bottom: 2rem;
+	font-size: 18px;
+}
+
+.weather_forecast {
+	display: inline-block;
+	padding-top: 10px;
+	border-radius: 30px;
+	font-size: 20px;
+}
+
+.weather_icon img {
+	width: 100px;
+}
+
+.weather_temperature {
+	font-size: 1.75rem;
+}
+
+.weather_minmax {
+	display: flex;
+	justify-content: center;
+}
+
+.weather_minmax p {
+	font-size: 16px;
+	margin: 0.5rem;
+}
+
+.weather_information {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 1rem;
+	margin-top: 3rem;
+}
+
+.weather_card {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-radius: 10px;
+	margin-left: 70px;
+}
+
+.weather_card i {
+	font-size: 25px;
+	margin-right: 1rem;
+}
+
+.weather_card p {
+	font-size: 14px;
+}
+
+.heading {
+	font-size: 25px;
+	color: white;
+	margin-bottom: 25px;
+	position: relative;
+	margin-left: 10px;
+}
+
+.about_container {
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+
+.about {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.about_image {
+	flex: 1;
+	margin-right: 40px;
+	overflow: hidden;
+}
+
+.about_image img{
+	width: 350px;
+	display: block;
+	transition: 0.5s ease;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.about_image:hover img {
+	transform: scale(1.2);
+}
+
+.about_content{
+	flex: 2;
+}
+
+.about_content h2 {
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+.about_content p {
+	font-size: 25px;
+	line-height: 1.5;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+
+.about_container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	background-color:#696969;
+	color: white;
+	max-width: 1200px;
+	margin-top: 50px;
+}
+
+.monsoon_table {
+	padding: 8px;
+	border: 1px;
+	text-align: center;
+	vertical-align: middle;
+}
